@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,11 +15,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void MainActivity2(View view){
-        Intent MainActivity2 = new Intent(this, com.Rodrigo.supermarketapp.MainActivity2.class);
-        StartActivity();
-    }
 
-    private void StartActivity() {
+    public void Confirmar(View view){
+        Intent confirmar = new Intent(this, MainActivity2.class);
+        startActivity(confirmar);
     }
 }

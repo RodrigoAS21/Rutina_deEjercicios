@@ -4,13 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/imagen2"
     tools:context=".MainActivity">
+
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="214dp"
         android:layout_height="37dp"
-        android:text="Como te estas Fisicamente"
+        android:text="¿Que quieres lograr?"
+        android:textColor="#FDFCFC"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,6 +27,7 @@
         android:layout_width="169dp"
         android:layout_height="34dp"
         android:text="Selecciona tu Genero"
+        android:textColor="#FFFEFE"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,6 +44,7 @@
         android:lineSpacingExtra="8sp"
         android:text="Bienvenido a la Rutina de Ejercicios"
         android:textAlignment="center"
+        android:textColor="#FDFCFC"
         android:textSize="20sp"
         android:textStyle="bold"
         android:typeface="monospace"
@@ -52,7 +57,11 @@
         android:id="@+id/checkBox2"
         android:layout_width="105dp"
         android:layout_height="50dp"
+        android:singleLine="false"
         android:text="Hombre"
+        android:textColor="#FDFCFC"
+        android:textColorHighlight="#FDFCFC"
+        android:textCursorDrawable="@drawable/ic_launcher_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.111"
@@ -65,6 +74,7 @@
         android:layout_width="105dp"
         android:layout_height="46dp"
         android:text="Mujer"
+        android:textColor="#FBFBFB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.111"
@@ -73,16 +83,56 @@
         app:layout_constraintVertical_bias="0.347" />
 
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/btnconfirmar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Confirmar"
-        android:background="@color/black"
+        android:background="@color/teal_200"
+        android:backgroundTint="@color/colorboton"
+        android:onClick="Confirmar"
+        android:text="@string/btnconfirmar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.912" />
+        app:layout_constraintVertical_bias="0.844" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="183dp"
+        android:layout_height="47dp"
+        android:text="Ganar masa Muscular"
+        android:textColor="#FFFEFE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="136dp"
+        android:layout_height="49dp"
+        android:text="Perder peso"
+        android:textColor="#FAF8F8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.684" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="202dp"
+        android:layout_height="50dp"
+        android:text="Disminuir grasa corporal"
+        android:textColor="#FDFCFC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Rutina de Ejercicios</string>
-    <string name="Confirmar">Confirmar</string>
+    <string name="btnconfirmar">Confirmar</string>
     <string name="MainActivity">MainActivity</string>
     <string name="MainActivity2">MainActivity2</string>
+    <string name="btnflexiones">Flexiones</string>
+    <string name="MainActivityflexiones">MainActivityflexiones</string>
+    <string name="btnabdominales">Abdominales</string>
+    <string name="MainActivityabdominales">MainActivityabdominales</string>
 </resources>
