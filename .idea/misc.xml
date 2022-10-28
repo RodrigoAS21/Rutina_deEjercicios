@@ -3,10 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/rorro/AndroidStudioProjects/RutinadeEjercicios/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/rorro/AndroidStudioProjects/RutinadeEjercicios/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/rorro/AndroidStudioProjects/RutinadeEjercicios/app/src/main/res/layout/activity_main2.xml" value="0.264" />
         <entry key="..\:/Users/rorro/AndroidStudioProjects/RutinadeEjercicios/app/src/main/res/layout/activity_main_activityabdominales.xml" value="0.25" />
-        <entry key="..\:/Users/rorro/AndroidStudioProjects/RutinadeEjercicios/app/src/main/res/layout/activity_main_activityflexiones.xml" value="0.4" />
+        <entry key="..\:/Users/rorro/AndroidStudioProjects/RutinadeEjercicios/app/src/main/res/layout/activity_main_activityflexiones.xml" value="0.264" />
+        <entry key="..\:/Users/rorro/AndroidStudioProjects/RutinadeEjercicios/app/src/main/res/layout/list_item_lista1.xml" value="0.20427350427350427" />
       </map>
     </option>
   </component>

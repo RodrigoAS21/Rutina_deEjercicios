@@ -7,4 +7,6 @@
     <string name="MainActivityflexiones">MainActivityflexiones</string>
     <string name="btnabdominales">Abdominales</string>
     <string name="MainActivityabdominales">MainActivityabdominales</string>
+    
+    <string name="TextViewlista">selecciona un ejercicio</string>
 </resources>

@@ -61,6 +61,7 @@
         android:id="@+id/button6"
         android:layout_width="138dp"
         android:layout_height="58dp"
+        android:onClick="@string/btnflexiones"
         android:text="flexiones"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
