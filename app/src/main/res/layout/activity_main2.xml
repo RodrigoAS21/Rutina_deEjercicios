@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.Rodrigo.supermarketAPP.MainActivity2">
+    tools:context="com.Rodrigo.supermarketapp.MainActivity2">
 
     <TextView
         android:id="@+id/textView4"
@@ -50,6 +50,7 @@
         android:layout_width="148dp"
         android:layout_height="59dp"
         android:text="@string/btnabdominales"
+        android:onClick="Abdominales"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.171"
@@ -61,7 +62,7 @@
         android:id="@+id/button6"
         android:layout_width="138dp"
         android:layout_height="58dp"
-        android:onClick="@string/btnflexiones"
+        android:onClick="flexiones"
         android:text="flexiones"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

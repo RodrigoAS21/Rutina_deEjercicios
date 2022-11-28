@@ -12,7 +12,9 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-    }
+
+
+       }
 
     public void flexiones(View view){
         Intent flexiones = new Intent(this,MainActivityflexiones.class);
@@ -23,4 +25,4 @@ public class MainActivity2 extends AppCompatActivity {
         Intent Abdominales = new Intent(this,MainActivityabdominales.class);
         startActivity(Abdominales);
     }
-}
+    }

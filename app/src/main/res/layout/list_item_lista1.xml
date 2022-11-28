@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="#0965C1"
-    android:textSize="24sp"
-    android:padding="10sp"
-    android:textColor="#ffffff"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent">
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
