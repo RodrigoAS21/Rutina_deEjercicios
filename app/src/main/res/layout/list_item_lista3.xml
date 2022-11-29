@@ -6,24 +6,25 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/NombreEjercicio"
+        android:id="@+id/Nsentadilla"
         android:text="Ejercicio: "
-        android:layout_toRightOf="@+id/imagen"
+        android:layout_toRightOf="@+id/imagentres"
         android:textSize="20dp"
         android:textColor="@color/black"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/Repxsession"
-        android:layout_toRightOf="@id/imagen"
-        android:layout_below="@id/NombreEjercicio"
+        android:id="@+id/repsentadillas"
+        android:layout_toRightOf="@+id/imagentres"
+        android:layout_below="@+id/Nsentadilla"
         android:textSize="20dp"
         android:textColor="@color/black"/>
 
+
     <ImageView
-        android:id="@+id/imagen"
+        android:id="@+id/imagentres"
         android:layout_width="90dp"
-        android:layout_height="90dp" />
+        android:layout_height="90dp"/>
 
 </RelativeLayout>

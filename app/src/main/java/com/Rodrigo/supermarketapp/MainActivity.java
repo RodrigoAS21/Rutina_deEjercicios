@@ -26,13 +26,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(continuar);
     }
 
-    public void Iriniciar (View view) {
+    /*public void Iriniciar (View view) {
         Intent iniciar = new Intent(this, IniciarSesionActivity.class);
         startActivity(iniciar);
     }
     public void IrRegistrarse (View view) {
         Intent i = new Intent(this, RegistrarseActivity.class);
         startActivity(i);
-    }
+    }*/
 
 }

@@ -22,41 +22,43 @@
         app:layout_constraintVertical_bias="0.054" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnsentadillas"
         android:layout_width="147dp"
-        android:layout_height="57dp"
+        android:layout_height="56dp"
+        android:onClick="sentadillas"
         android:text="Sentadillas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintHorizontal_bias="0.178"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.307" />
+        app:layout_constraintVertical_bias="0.411" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnpressbanca"
         android:layout_width="152dp"
         android:layout_height="63dp"
+        android:onClick="press_banca"
         android:text="Press Banca"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintHorizontal_bias="0.181"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.459" />
+        app:layout_constraintVertical_bias="0.61" />
 
     <Button
         android:id="@+id/btnabdominales"
         android:layout_width="148dp"
         android:layout_height="59dp"
-        android:text="@string/btnabdominales"
         android:onClick="Abdominales"
+        android:text="@string/btnabdominales"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintHorizontal_bias="0.178"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.608" />
+        app:layout_constraintVertical_bias="0.802" />
 
     <Button
         android:id="@+id/button6"
@@ -66,9 +68,9 @@
         android:text="flexiones"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintHorizontal_bias="0.172"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.166" />
+        app:layout_constraintVertical_bias="0.228" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
