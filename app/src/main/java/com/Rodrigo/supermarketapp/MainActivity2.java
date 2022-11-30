@@ -35,4 +35,10 @@ public class MainActivity2 extends AppCompatActivity {
         Intent press_banca = new Intent(this, MainActivitypressbanca.class);
         startActivity(press_banca);
     }
+
+    public void actividades(View view) {
+        Intent i = new Intent(this, Registro.class);
+        startActivity(i);
+    }
+
 }

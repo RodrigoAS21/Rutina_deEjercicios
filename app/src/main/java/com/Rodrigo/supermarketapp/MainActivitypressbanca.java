@@ -24,7 +24,10 @@ public class MainActivitypressbanca extends AppCompatActivity {
 
         listView = findViewById(R.id.listview);
 
-        lista.add(new clasepressbanca("asdad", "5x3", R.drawable.pressbacanuno));
+        lista.add(new clasepressbanca("Press Banca", "15 x 3", R.drawable.pressbacanuno));
+        lista.add(new clasepressbanca("Press Banca Inclinado", "15 x 3", R.drawable.pressbancados));
+        lista.add(new clasepressbanca("Press Banca Declinado", "10 x 3", R.drawable.pressbancatres));
+
 
         pressbancaAdapter = new pressbancaAdapter(MainActivitypressbanca.this,R.layout.list_item_lista2,lista);
 

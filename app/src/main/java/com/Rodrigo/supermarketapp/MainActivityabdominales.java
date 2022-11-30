@@ -10,8 +10,7 @@ import java.util.List;
 
 public class MainActivityabdominales extends AppCompatActivity {
 
-    private ListView listView;
-    private List<claseAbdominales> lista = new ArrayList<>();
+    private final List<claseAbdominales> lista = new ArrayList<>();
     AbdominalAdapter abdominalAdapter;
 
     @Override
@@ -19,7 +18,7 @@ public class MainActivityabdominales extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_activityabdominales);
 
-        listView = findViewById(R.id.listview);
+        ListView listView = findViewById(R.id.listview);
 
         lista.add(new claseAbdominales("Abdominal Tradicional", "10 x 4 Sesiones", R.drawable.abdominaldos));
         lista.add(new claseAbdominales("Plancha", "35 min. x 3 Sesiones", R.drawable.abdominaltres));
